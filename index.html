@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Strength Academy Mobile</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">Full Strength Academy Mobile</a>
+        </div>
+      </nav>
+      </header>
+      
+      <main id="bmi-chart-component">
+        <section id="bmi-category">
+            <h2>SMART BMI CALCULATOR</h2>
+            <hr>
+            <h3 id="bmiValue"></h3>
+            <h4 id="categoryLabel"></h4>
+            <canvas id="bmiChart" width="300" height="200"></canvas>
+          </section>
+        </div>
+      </section>
+          <section>
+            <div class="bmiApp">
+              <div class="formAndPlan">
+                <form id="bmi-form">
+                  <input type="text" placeholder="Height in feet" class="bmi-input" id="heightFeet" />
+                  <input type="text" placeholder="Height in inches" class="bmi-input" id="heightInches" />
+                  <input type="text" placeholder="Weight in pounds" class="bmi-input" id="weight" />
+                  <button type="submit" class="bmi-btn">Calculate my BMI</button>
+                </form>
+
+                <div id="mealWorkoutContainer">
+                  <br>
+                  <p id="loadingMessage"></p>
+                  <p id="errorMessage"></p>
+                  <div id="mealPlan"></div>
+                  <br>
+                  <div id="workoutPlan"></div>
+                </div>
+              </div>
+      
+        </main>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js"></script>
+  
+
+
+
+</body>
+</html>
