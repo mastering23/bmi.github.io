@@ -16,6 +16,9 @@ h2, h3, h4 {
   text-align: center;
   margin-bottom: 10px;
 }
+#text-animation{
+  color:white;
+}
 
 .container {
   max-width: 600px;
@@ -106,6 +109,7 @@ h2, h3, h4 {
   border-radius: 4px;
   width: 60%;
   font-size: 16px;
+
 }
 
 .bmi-btn {
